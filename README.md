@@ -2,7 +2,7 @@
 Vice editors don't need spend hours on titles now. They can easily get video ideas using this app 
 
 
-![N|Solid](https://img.shields.io/twitter/url/https/github.com/mcanwoo/Matlab-Offside-VAR-.svg?style=social)
+![N|Solid](https://img.shields.io/twitter/url/https://mcanwoo.github.io/vice/.svg?style=social)
 # VICE NEWS
 
 This app has been made for fun.
