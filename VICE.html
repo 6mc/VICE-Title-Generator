@@ -39,7 +39,9 @@
 
 
 	var adjectives = ["Foolish", "Racist", "disquieting", "eccentric", "funny", "irrational", "irregular", "oddball", "puzzling", "singular", "touched", "unbalanced", "unhinged", "weird", "anomalous", "atypical", "bizarre", "curious", "demented", "doubtful", "droll", "dubious", "eerie", "erratic", "extraordinary", "fishy", "flaky", "fly ball", "freaky", "idiosyncratic", "kinky", "kooky", "mad", "mysterious", "off the wall", "outlandish", "outre", "outré", "peculiar", "quaint", "questionable", "remarkable", "shady", "strange", "suspicious", "uncanny", "uncommon", "unconventional", "unnatural", "unorthodox", "unusual", "wacky"]
-
+  var nouns = ["Man", "Horse", "Animal activists", "Vegans", "Workers",
+      "thief", "president", "Red-headed girl", "Strong woman", "Feminist", "Christain", "Atheist"
+    ];
 
 function capitalize(string) 
 {
@@ -51,6 +53,7 @@ function getRndInteger(min, max) {
 }
 
 document.write(capitalize(adjectives[getRndInteger(0,adjectives.length)]) + " ");
+document.write(nouns[getRndInteger(0, 12)] + " ");
 document.write(crimes[getRndInteger(0,41)] + " in ");
 document.write(country_list[getRndInteger(0,204)]);
 
