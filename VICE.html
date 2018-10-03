@@ -38,13 +38,19 @@
 "voyeurism"];
 
 
+	var adjectives = ["Foolish", "Racist", "disquieting", "eccentric", "funny", "irrational", "irregular", "oddball", "puzzling", "singular", "touched", "unbalanced", "unhinged", "weird", "anomalous", "atypical", "bizarre", "curious", "demented", "doubtful", "droll", "dubious", "eerie", "erratic", "extraordinary", "fishy", "flaky", "fly ball", "freaky", "idiosyncratic", "kinky", "kooky", "mad", "mysterious", "off the wall", "outlandish", "outre", "outré", "peculiar", "quaint", "questionable", "remarkable", "shady", "strange", "suspicious", "uncanny", "uncommon", "unconventional", "unnatural", "unorthodox", "unusual", "wacky"]
 
+
+function capitalize(string) 
+{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min) ) + min;
 }
 
-
+document.write(capitalize(adjectives[getRndInteger(0,adjectives.length)]) + " ");
 document.write(crimes[getRndInteger(0,41)] + " in ");
 document.write(country_list[getRndInteger(0,204)]);
 
